@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+button {
+    padding: .8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+h2 {
+    color: white;
+}
+/*
+#carta-jogador {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+} */
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.campoDeBatalha {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	
+}
+.containerCarta {
+	display: flex;
+	flex-direction: column;
+}
+.boxCarta {
+	background-color: #DCC481;
+	width: 320px;
+   height: 500px;
+	display: flex;
+	border-radius: 8px;
+	background: linear-gradient(0deg, #423B27, #E6CC87 70%, #FFE396);
+}
+.imgCarta {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 1.5rem 1rem 2rem 1rem;
+	width: 100%;
+	border-radius: 8px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #ddd;
+}
+.boxCartaInfo {
+	display: flex;
+	flex-direction: column;	
+	margin: 0 .5rem .5rem .5rem;
+	background-color: #423B27aa;
+	color: #ddd;
+	border-radius: 8px;
+}
+
+.atributosBox {
+	text-align: left;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.atributo {
+	margin: 0;
+}
+.descricaoCarta {
+	color: #ddd;
+}
+
+.resultado {
+	font-size: 24px;
+	color: #ddd;
+}
