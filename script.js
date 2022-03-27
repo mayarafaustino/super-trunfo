@@ -3,7 +3,7 @@ var cartas = [
 		nome: "Katniss Everdeen",
 		imagem: "https://i.pinimg.com/236x/0c/3b/35/0c3b3518ae83020b77c5dd7901d97782.jpg",
 		atributos: {
-			ataque: 9,
+			ataque: 6,
 			defesa: 4,
 			inteligência: 8,
 			emocional: 5,
@@ -33,13 +33,22 @@ var cartas = [
 		nome: "Wonder Woman",
 		imagem: "https://img.elo7.com.br/product/zoom/2163028/poster-do-filme-mulher-maravilha-50cm-x-70cm-poster.jpg",
 		atributos: {
-			ataque: 10,
-			defesa: 9,
+			ataque: 9,
+			defesa: 10,
 			inteligência: 7,
 			emocional: 6,
 		}
+	},
+	carta4 = {
+		nome: "Capitã Marvel",
+		imagem: "https://static1.purebreak.com.br/articles/9/84/28/9/@/314011--capita-marvel-e-o-filme-ideal-para-mos-diapo-1.jpg",
+		atributos: {
+			ataque: 10,
+			defesa: 9,
+			inteligência: 6,
+			emocional: 7,
+		}
 	}
-	
 ];
 var quantidadeDeCartas = cartas.length;
 var cartaMaquina;

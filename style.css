@@ -1,12 +1,20 @@
+:root {
+	--roboto-mono: 'Roboto Mono', monospace;
+	--cursiva: 'Shadows Into Light', cursive;
+}
+
+
+
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: var(--roboto-mono);
     min-height: 854px;
-    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
+    /* background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png'); */
+	background: linear-gradient(#636499, #0d011d);
     background-color: #000000;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding-bottom: 20vh;
+
 }
 
 .container {
@@ -16,9 +24,16 @@ body {
 
 .page-title {
     color: #ffffff;
+	font-size: 24px;
+	font-weight: 300;
     margin: 5px 0;
 }
-
+.page-subtitle {
+	color: #ffffff;
+	font-family: var(--cursiva);
+	font-size: 72px;
+	margin: 0 0 3rem 0;
+}
 button {
     padding: .8rem 1.5rem;
     margin: 1rem 0;
@@ -26,21 +41,13 @@ button {
     border: none;
     font-size: 1rem;
 }
+button:hover{
+	background-color: #DCC481;
+}
 
-h2 {
+h3 {
     color: white;
 }
-/*
-#carta-jogador {
-    width: 360px;
-    height: 500px;
-    overflow: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    margin: 0 auto;
-    display: flex;
-    align-items: flex-end;
-} */
 form {
 	display: flex;
 	flex-direction: column;
@@ -48,6 +55,7 @@ form {
 }
 .campoDeBatalha {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 80%;
 	
@@ -62,7 +70,7 @@ form {
    height: 500px;
 	display: flex;
 	border-radius: 8px;
-	background: linear-gradient(0deg, #423B27, #E6CC87 70%, #FFE396);
+	background: linear-gradient(0deg, #574412, #c2ad74 70%, #DCC481);
 }
 .imgCarta {
 	display: flex;
@@ -96,9 +104,15 @@ form {
 }
 .descricaoCarta {
 	color: #ddd;
+	margin-bottom: 2rem;
 }
 
 .resultado {
 	font-size: 24px;
 	color: #ddd;
+}
+
+.page-logo {
+	width: 15rem;
+	margin-top: 4rem;
 }
